@@ -1,0 +1,4 @@
+https://github.com/mitkoostz/It-task
+
+Api - /Api/Api  dotnet run
+Client - /Client/Client-App ng serve

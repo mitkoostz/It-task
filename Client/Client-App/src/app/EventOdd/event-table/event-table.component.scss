@@ -1,0 +1,46 @@
+input:disabled {
+   background-color: white;
+}
+input{ 
+
+    border-width:0px;
+    border:none;
+}
+.editable{
+    &:hover{
+        cursor: pointer;
+        color: black;
+    }
+    &:focus{
+        cursor: text;
+    }
+}
+.preview{
+    &:hover{
+        cursor: pointer;
+        color: black;
+    }
+}
+.editButtonsCell{
+    border:none;
+    vertical-align: middle;
+    padding: 0 0 !important;
+    padding-bottom: 0px !important;
+}
+
+.evenRow{
+    background-color: honeydew;
+}
+.oddRow{
+    background-color: aliceblue;
+}
+.oldDate{
+    background-color: lightsalmon !important;
+}
+
+.previewCell{
+    &:hover{
+        cursor: pointer;
+        color: black;
+    }
+}

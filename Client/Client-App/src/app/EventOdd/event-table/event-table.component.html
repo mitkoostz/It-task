@@ -1,0 +1,50 @@
+<div class="container mt-5">
+
+    <div class="text-right">
+        <button *ngIf="!editEnabled" (click)="editEnabled = !editEnabled" class="btn btn-secondary align-rigth">Edit Mode</button>
+        <button *ngIf="editEnabled"  (click)="editEnabled = !editEnabled" class="btn btn-secondary align-rigth">Preview Mode</button>
+    </div>
+   
+    <form [formGroup]="eventUpdateForm">
+    <table class="table table-sm mt-3 table-bordered ">
+        <thead class="text-dark">
+          <tr>
+            <th *ngIf="editEnabled" scope="col">EventId</th>
+            <th scope="col">EventName</th>
+            <th scope="col">OddsForFirstTeam</th>
+            <th scope="col">OddsForDraw</th>
+            <th scope="col">OddsForSecondTeam</th>
+            <th scope="col">EventStartDate</th>
+          </tr>
+        </thead>
+        <tbody  *ngFor="let event of events; index as i"  formArrayName="Rows" >
+          
+          <tr *ngIf="editEnabled" [formGroupName]="event.formId"> 
+            <td class="text-center">{{event.id}}</td>
+            <td (click)="fieldStartEdit($event)"><input formControlName="eventName" class="editable" (focusout)="fieldEditLooseFocus($event)" [attr.disabled]="true" type="text"   value="{{event.eventName}}"></td>
+            <td (click)="fieldStartEdit($event)"><input formControlName="oddsForFirstTeam" class="editable" (focusout)="fieldEditLooseFocus($event)" [attr.disabled]="true" type="number" min="1" step="0.01" value="{{event.oddsForFirstTeam}}"></td>
+            <td (click)="fieldStartEdit($event)"><input formControlName="oddsForDraw" class="editable" (focusout)="fieldEditLooseFocus($event)" [attr.disabled]="true" type="number" min="1" step="0.01" value="{{event.oddsForDraw}}"></td>
+            <td (click)="fieldStartEdit($event)"><input formControlName="oddsForSecondTeam" class="editable" (focusout)="fieldEditLooseFocus($event)" [attr.disabled]="true" type="number" min="1" step="0.01" value="{{event.oddsForSecondTeam}}"></td>
+            <td (click)="fieldStartEdit($event)"><input formControlName="eventStartDate" class="editable" (focusout)="fieldEditLooseFocus($event)" [attr.disabled]="true" type= "text" min="1"  step="0.01" value="{{event.eventStartDate | date:'d/M/y h:mm'}}"></td>
+            <td (click)="updateEvent(event.id, event.formId)" class="editButtonsCell"><button class="btn btn-sm btn-success ml-1">Save</button></td>
+            <td (click)="deleteEvent(event.id)" class="editButtonsCell"><button class="btn btn-sm btn-danger ml-1">Delete</button></td> 
+          </tr>
+          <tr *ngIf="!editEnabled" [className]="i % 2 === 0 ? 'evenRow' : 'oddRow'" [ngClass]="{'oldDate' : checkIfDateIsPassed(event.eventStartDate)}">
+            <td>{{event.eventName}}</td>
+            <td class="previewCell" (click)="writeDataToConsole(event, 1)">{{event.oddsForFirstTeam.toFixed(2)}}</td>
+            <td class="previewCell" (click)="writeDataToConsole(event, 2)">{{event.oddsForDraw.toFixed(2)}}</td>
+            <td class="previewCell" (click)="writeDataToConsole(event, 3)">{{event.oddsForSecondTeam.toFixed(2)}}</td>
+            <td>{{event.eventStartDate | date:'d/M/y h:mm'}}</td>
+          </tr>
+
+        </tbody>
+      </table>
+    </form>
+      <div>
+        <button (click)="addNewEvent();" type="submit" *ngIf="editEnabled" class="text-left btn btn-sm btn-secondary align-rigth">Add New</button>
+        <label *ngIf="editEnabled" hidden #errorLabel class="text-danger ml-5"></label>
+        <label *ngIf="editEnabled" hidden #successLabel class="text-success ml-5"></label>
+    
+    </div>
+
+</div>

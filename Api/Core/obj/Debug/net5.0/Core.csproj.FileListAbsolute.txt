@@ -1,0 +1,12 @@
+D:\MitkoSoft\2020+ Projects\IT TASK\Api\Core\bin\Debug\net5.0\Core.deps.json
+D:\MitkoSoft\2020+ Projects\IT TASK\Api\Core\bin\Debug\net5.0\Core.dll
+D:\MitkoSoft\2020+ Projects\IT TASK\Api\Core\bin\Debug\net5.0\ref\Core.dll
+D:\MitkoSoft\2020+ Projects\IT TASK\Api\Core\bin\Debug\net5.0\Core.pdb
+D:\MitkoSoft\2020+ Projects\IT TASK\Api\Core\obj\Debug\net5.0\Core.csprojAssemblyReference.cache
+D:\MitkoSoft\2020+ Projects\IT TASK\Api\Core\obj\Debug\net5.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\MitkoSoft\2020+ Projects\IT TASK\Api\Core\obj\Debug\net5.0\Core.AssemblyInfoInputs.cache
+D:\MitkoSoft\2020+ Projects\IT TASK\Api\Core\obj\Debug\net5.0\Core.AssemblyInfo.cs
+D:\MitkoSoft\2020+ Projects\IT TASK\Api\Core\obj\Debug\net5.0\Core.csproj.CoreCompileInputs.cache
+D:\MitkoSoft\2020+ Projects\IT TASK\Api\Core\obj\Debug\net5.0\Core.dll
+D:\MitkoSoft\2020+ Projects\IT TASK\Api\Core\obj\Debug\net5.0\ref\Core.dll
+D:\MitkoSoft\2020+ Projects\IT TASK\Api\Core\obj\Debug\net5.0\Core.pdb
