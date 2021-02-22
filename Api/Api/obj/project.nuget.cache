@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2TLngIzsoXRzrZi5CrPjioT7iu+nY8byuoLxfqq+m8c0jiMhCAlyOBEP8B7eEYDvGIy/zmQrf+ZBSvntetaAJg==",
+  "dgSpecHash": "+WKuY9jCcdGghv5LS8d+/mU9QugR8idQq57MUZ8iNdHX+ptSjHGPPUUidiKQ21rQcn1u9jFxA8xXrL7+J5sVWQ==",
   "success": true,
-  "projectFilePath": "D:\\MitkoSoft\\2020+ Projects\\IT TASK\\api\\api\\Api.csproj",
+  "projectFilePath": "D:\\MitkoSoft\\2020+ Projects\\IT TASK\\Api\\Api\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\todor\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
     "C:\\Users\\todor\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

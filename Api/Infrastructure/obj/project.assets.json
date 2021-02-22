@@ -961,11 +961,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MitkoSoft\\2020+ Projects\\IT TASK\\api\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "D:\\MitkoSoft\\2020+ Projects\\IT TASK\\Api\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "D:\\MitkoSoft\\2020+ Projects\\IT TASK\\api\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "D:\\MitkoSoft\\2020+ Projects\\IT TASK\\Api\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\todor\\.nuget\\packages\\",
-      "outputPath": "D:\\MitkoSoft\\2020+ Projects\\IT TASK\\api\\Infrastructure\\obj\\",
+      "outputPath": "D:\\MitkoSoft\\2020+ Projects\\IT TASK\\Api\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -987,8 +987,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\MitkoSoft\\2020+ Projects\\IT TASK\\api\\Core\\Core.csproj": {
-              "projectPath": "D:\\MitkoSoft\\2020+ Projects\\IT TASK\\api\\Core\\Core.csproj"
+            "D:\\MitkoSoft\\2020+ Projects\\IT TASK\\Api\\Core\\Core.csproj": {
+              "projectPath": "D:\\MitkoSoft\\2020+ Projects\\IT TASK\\Api\\Core\\Core.csproj"
             }
           }
         }

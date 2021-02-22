@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8tpG4+bSyVFYbeJdSGQ4sICrZK6aaaA5T93yloek1ZO4UFUfXBogLhLAK7Q254h+JhCyiKUMt45vOAa8h081pQ==",
+  "dgSpecHash": "+13NOGLWFJ24TsKd0PKrwVBHXECOYdxNC40jSJht1MJrZ6R5i4+iqgjsIAM6Koe1gjojvI9DSplITMzvDNyhUA==",
   "success": true,
-  "projectFilePath": "D:\\MitkoSoft\\2020+ Projects\\IT TASK\\api\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "D:\\MitkoSoft\\2020+ Projects\\IT TASK\\Api\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\todor\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.1\\microsoft.data.sqlite.core.5.0.1.nupkg.sha512",
     "C:\\Users\\todor\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lnnpQC8dhQQmwFyE04FosYU9X3ekqzh7x8fteYO7PLe/OiQZVV8piLc65WzOITeEtBYVzWKlsiaG38wjJrdtBQ==",
+  "dgSpecHash": "lDNbW2rbOBFiojK9LcjZFdYQCqljPsjOlOM8YhfdqZiUe4m852P+nuECQJyGp+oWhGdo+l3xaWFJ+NXz5xp9yA==",
   "success": true,
-  "projectFilePath": "D:\\MitkoSoft\\2020+ Projects\\IT TASK\\api\\Core\\Core.csproj",
+  "projectFilePath": "D:\\MitkoSoft\\2020+ Projects\\IT TASK\\Api\\Core\\Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

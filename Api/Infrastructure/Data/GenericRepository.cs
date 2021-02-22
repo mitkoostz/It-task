@@ -17,8 +17,7 @@ namespace Infrastructure.Data
 
         public GenericRepository(OddContext context)
         {
-            this._context = context;
-            
+            this._context = context;    
         }
 
         public async  Task<T> GetByIdAsync(int id)
